@@ -54,7 +54,12 @@ AppsKey::SendInput {AppsKey Down}
 AppsKey up::SendInput {AppsKey Up}
 
 
-; AppsKey + dbwer
+; AppsKey + c
+AppsKey & c::SendInput {Ctrl Down}{z Down}
+AppsKey & c up::SendInput {Ctrl Up}{z Up}
+
+
+; AppsKey + hwenr
 
 AppsKey & h::SendInput {Blind}{Del Down}
 AppsKey & w::SendInput {Ctrl down}{F4}{Ctrl up}
