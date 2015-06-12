@@ -1,0 +1,2 @@
+# hot key to ls one per line
+alias li='ls -1'
