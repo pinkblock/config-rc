@@ -25,6 +25,11 @@
 filetype plugin indent on " Filetype auto-detection
 syntax on " Syntax highlighting
 
+
+" turn on pathogen
+execute pathogen#infect()
+
+
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
