@@ -25,6 +25,10 @@
 filetype plugin indent on " Filetype auto-detection
 syntax on " Syntax highlighting
 
+" turn on line numbers
+set number
+
+
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
