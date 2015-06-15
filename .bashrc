@@ -2,14 +2,11 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+# hot key to ls one per line
 alias li='ls -1'
 
-
-# If not running interactively, don't do anything
-case $- in
-    *i*) ;;
-      *) return;;
-esac
+# turn on color text
+TERM=xterm-color
 
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
