@@ -6,6 +6,22 @@
 ; Most of the syntax is described at http://www.autohotkey.com/docs/Hotkeys.htm
 
 
+
+; AppsKey + uiop
+
+AppsKey & u::SendInput {Blind}{PgUp Down}
+AppsKey & u up::SendInput {Blind}{PgUp Up}
+
+AppsKey & i::SendInput {Blind}{PgDn Down}
+AppsKey & i up::SendInput {Blind}{PgDn Up}
+
+AppsKey & o::SendInput {Blind}{Home Down}
+AppsKey & o up::SendInput {Blind}{Home Up}
+
+AppsKey & p::SendInput {Blind}{End Down}
+AppsKey & p up::SendInput {Blind}{End Up}
+
+
 ; AppsKey + jkl;
 
 Appskey & j::Send {Blind}{Up DownTemp}
@@ -21,19 +37,9 @@ AppsKey & `;::Send {Blind}{Right DownTemp}
 AppsKey & `; up::Send {Blind}{Right Up}
 
 
-; AppsKey + uiop
-
-AppsKey & u::SendInput {Blind}{PgUp Down}
-AppsKey & u up::SendInput {Blind}{PgUp Up}
-
-AppsKey & i::SendInput {Blind}{PgDn Down}
-AppsKey & i up::SendInput {Blind}{PgDn Up}
-
-AppsKey & o::SendInput {Blind}{Home Down}
-AppsKey & o up::SendInput {Blind}{Home Up}
-
-AppsKey & p::SendInput {Blind}{End Down}
-AppsKey & p up::SendInput {Blind}{End Up}
+; AppsKey + m
+Appskey & m::Send {Blind}{Enter DownTemp}
+AppsKey & m up::Send {Blind}{Enter Up}
 
 
 ; AppsKey + asdf
