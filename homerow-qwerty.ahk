@@ -70,7 +70,7 @@ Appskey & m::Send {Blind}{Enter DownTemp}
 AppsKey & m up::Send {Blind}{Enter Up}
 
 AppsKey & .::SendInput {Ctrl Down}{Left Down}
-AppsKey &  up::SendInput {Ctrl Up}{Left Up}
+AppsKey & . up::SendInput {Ctrl Up}{Left Up}
 
 AppsKey & /::SendInput {Ctrl Down}{Right Down}
 AppsKey & / up::SendInput {Ctrl Up}{Right Up}
