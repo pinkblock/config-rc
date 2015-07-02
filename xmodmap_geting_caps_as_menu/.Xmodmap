@@ -1,4 +1,4 @@
-! this is ment to be a working vesion of my keybord that is geting caps as menu from the host mashine
+! this is ment to be a working vesion of my keybord that is geting caps as menu from the host mashine.
 keycode   8 =
 keycode   9 = Escape NoSymbol Escape
 keycode  10 = 1 exclam 1 exclam
