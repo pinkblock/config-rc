@@ -1,3 +1,4 @@
+! This is ment to be defult qwerty key mapings 
 keycode   8 =
 keycode   9 = Escape NoSymbol Escape
 keycode  10 = 1 exclam 1 exclam
@@ -12,18 +13,18 @@ keycode  18 = 9 parenleft 9 parenleft
 keycode  19 = 0 parenright 0 parenright
 keycode  20 = minus underscore minus underscore
 keycode  21 = equal plus equal plus
-keycode  22 = BackSpace BackSpace BackSpace BackSpace
+keycode  22 = BackSpace BackSpace BackSpace BackSpace NoSymbol NoSymbol Terminate_Server
 keycode  23 = Tab ISO_Left_Tab Tab ISO_Left_Tab
 keycode  24 = q Q q Q
 keycode  25 = w W w W
 keycode  26 = e E e E
-keycode  27 = r R Escape Escape
+keycode  27 = r R r R
 keycode  28 = t T t T
 keycode  29 = y Y y Y
-keycode  30 = u U Prior Prior
-keycode  31 = i I Next Next
-keycode  32 = o O KP_Home KP_Home
-keycode  33 = p P KP_End KP_End
+keycode  30 = u U u U
+keycode  31 = i I i I
+keycode  32 = o O o O
+keycode  33 = p P p P
 keycode  34 = bracketleft braceleft bracketleft braceleft
 keycode  35 = bracketright braceright bracketright braceright
 keycode  36 = Return NoSymbol Return
@@ -33,11 +34,11 @@ keycode  39 = s S s S
 keycode  40 = d D d D
 keycode  41 = f F f F
 keycode  42 = g G g G
-keycode  43 = h H KP_Delete KP_Delete
-keycode  44 = j J KP_Up KP_Up 1 2
-keycode  45 = k K KP_Down KP_Down
-keycode  46 = l L KP_Left KP_Left 
-keycode  47 = semicolon colon KP_Right KP_Right
+keycode  43 = h H h H
+keycode  44 = j J j J
+keycode  45 = k K k K
+keycode  46 = l L l L
+keycode  47 = semicolon colon semicolon colon
 keycode  48 = apostrophe quotedbl apostrophe quotedbl
 keycode  49 = grave asciitilde grave asciitilde
 keycode  50 = Shift_L NoSymbol Shift_L
@@ -47,8 +48,8 @@ keycode  53 = x X x X
 keycode  54 = c C c C
 keycode  55 = v V v V
 keycode  56 = b B b B
-keycode  57 = n N BackSpace BackSpace
-keycode  58 = m M KP_Enter KP_Enter
+keycode  57 = n N n N
+keycode  58 = m M m M
 keycode  59 = comma less comma less
 keycode  60 = period greater period greater
 keycode  61 = slash question slash question
@@ -56,7 +57,7 @@ keycode  62 = Shift_R NoSymbol Shift_R
 keycode  63 = KP_Multiply KP_Multiply KP_Multiply KP_Multiply KP_Multiply KP_Multiply XF86ClearGrab
 keycode  64 = Alt_L Meta_L Alt_L Meta_L
 keycode  65 = space NoSymbol space
-keycode  66 = Mode_switch Mode_switch
+keycode  66 = Caps_Lock NoSymbol Caps_Lock
 keycode  67 = F1 F1 F1 F1 F1 F1 XF86Switch_VT_1
 keycode  68 = F2 F2 F2 F2 F2 F2 XF86Switch_VT_2
 keycode  69 = F3 F3 F3 F3 F3 F3 XF86Switch_VT_3
@@ -125,7 +126,7 @@ keycode 131 = Hangul_Hanja NoSymbol Hangul_Hanja
 keycode 132 =
 keycode 133 = Super_L NoSymbol Super_L
 keycode 134 = Super_R NoSymbol Super_R
-keycode 135 = 
+keycode 135 = Menu NoSymbol Menu
 keycode 136 = Cancel NoSymbol Cancel
 keycode 137 = Redo NoSymbol Redo
 keycode 138 = SunProps NoSymbol SunProps
@@ -246,21 +247,3 @@ keycode 252 =
 keycode 253 =
 keycode 254 =
 keycode 255 =
-
-clear shift
-clear lock
-clear control
-clear mod1
-clear mod2
-clear mod3
-clear mod4
-clear mod5
-
-add shift =      Shift_L  Shift_R
-add lock  =      Caps_Lock
-add control =    Control_L  Control_R
-add mod1    =    Alt_L Meta_L Alt_R
-add mod2    =    Num_Lock
-add mod3    =    Mode_switch
-add mod4    =    Super_L  Hyper_L
-add mod5    =    ISO_Level3_Shift
