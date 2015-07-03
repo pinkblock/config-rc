@@ -76,7 +76,9 @@ AppsKey & /::SendInput {Ctrl Down}{Right Down}
 AppsKey & / up::SendInput {Ctrl Up}{Right Up}
 
 
-;OTHER		
+;OTHER
+RControl::RWin
+
 AppsKey::SendInput {AppsKey Down}
 AppsKey up::SendInput {AppsKey Up}
 
