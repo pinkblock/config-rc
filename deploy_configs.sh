@@ -7,4 +7,3 @@ ln -s ~/config-rc/test.txt ~/Desktop/test.txt
 sh set_xmod.sh
 
 
-

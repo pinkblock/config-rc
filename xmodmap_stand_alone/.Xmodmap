@@ -1,4 +1,5 @@
-! this is ment to be a stand alone version for us on not VMs 
+! this is meant to be a stand alone version for us on not VMs
+
 keycode   8 =
 keycode   9 = Escape NoSymbol Escape
 keycode  10 = 1 exclam 1 exclam
@@ -96,10 +97,10 @@ keycode 101 = Hiragana_Katakana NoSymbol Hiragana_Katakana
 keycode 102 = Muhenkan NoSymbol Muhenkan
 keycode 103 =
 keycode 104 = KP_Enter NoSymbol KP_Enter
-keycode 105 = Control_R NoSymbol Control_R
+keycode 105 = Super_R Super_R Super_R Super_R
 keycode 106 = KP_Divide KP_Divide KP_Divide KP_Divide KP_Divide KP_Divide XF86Ungrab
 keycode 107 = Print Sys_Req Print Sys_Req
-keycode 108 = Alt_R Meta_R Alt_R Meta_R
+keycode 108 = Tab Tab Tab Tab
 keycode 109 = Linefeed NoSymbol Linefeed
 keycode 110 = Home NoSymbol Home
 keycode 111 = Up NoSymbol Up
@@ -259,7 +260,7 @@ clear mod5
 
 add shift =      Shift_L  Shift_R
 add lock  =      Caps_Lock
-add control =    Control_L  Control_R
+add control =    Control_L Control_R
 add mod1    =    Alt_L Meta_L Alt_R
 add mod2    =    Num_Lock
 add mod3    =    Mode_switch
