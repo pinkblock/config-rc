@@ -112,3 +112,36 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+
+
+### Functions ###
+function proxy_on() {
+    # add the proxy settings for apt-get
+    sudo cp /etc/apt/apt.conf.lex /etc/apt/apt.conf
+    echo "Proxy variable set for apt-get."
+
+    # environment variable
+    export no_proxy="localhost,127.0.0.1,localaddress,.localdomain.com"
+    export http_proxy="http://us-auto.proxy.lexmark.com:8080/"
+    export ftp_proxy=$http_proxy
+    export rsync_proxy=$http_proxy
+    export HTTP_PROXY=$http_proxy
+    export FTP_PROXY=$http_proxy
+    export RSYNC_PROXY=$http_proxy
+    echo "Proxy environment variable set."
+}
+
+
+function proxy_off(){
+    # remove the proxy settings for apt-get
+    sudo cp /etc/apt/apt.conf.blank /etc/apt/apt.conf
+    echo "Proxy variable set for apt-get."
+
+    # unset environment variable
+    unset http_proxy
+    unset https_proxy
+    unset ftp_proxy
+    unset rsync_proxy
+    echo -e "Proxy environment variable removed."
+}
