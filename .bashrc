@@ -123,6 +123,13 @@ fi
 
 
 ### Functions ###
+# make a dir and move into in
+mcd () {
+    mkdir -p $1
+    cd $1
+}
+
+# turn on and off proxy's
 function proxy_on() {
     # add the proxy settings for apt-get
     sudo cp /etc/apt/apt.conf.lex /etc/apt/apt.conf
