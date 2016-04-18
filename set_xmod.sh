@@ -21,6 +21,7 @@ echo "3) stand_alone"
 
 read -p "what key bindings would you like? (type 1, 2, or 3) " pick
 
+ln -s ~/config-rc/.xinitrc ~/.xinitrc
 
 if [ "$pick" = "1" ]; then
 	echo "you picked default"
