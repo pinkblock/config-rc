@@ -1,0 +1,7 @@
+tree
+pip
+sublime
+chromeum
+steam
+thefuck
+
