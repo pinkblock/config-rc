@@ -1,0 +1,54 @@
+[user]
+    email = seithmiller@gmail.com
+    name = Seith Miller
+[push]
+    default = matching
+[color]
+    ui = auto
+[color "branch"]
+    current = yellow bold
+    local = green bold
+    remote = cyan bold
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+    whitespace = red reverse
+[color "status"]
+    added = green bold
+    changed = yellow bold
+    untracked = red bold
+[alias]
+    b = branch
+    bn = branch -n
+    #############
+    c = commit
+    cm = commit -m
+    #############
+    ls = ls-files
+    lsf = "!git ls-files | grep -i"
+    #############
+    o = checkout
+    ob = checkout -b
+    #############
+    ps = push
+    pso = push origin
+    #############
+    pl = pull
+    plu = pull -u
+    plo = pull origin
+    plp = pull upstream
+    plom = pull origin master
+    plpm = pull upstream master
+    #############
+    r = remote
+    ra = remote add
+    rv = remote -v
+    rao = remote add origin
+    rau = remote add upstream
+    rsu = remote show upstream
+    #############
+    s = status
+    sb = status -s -b
+    #############
