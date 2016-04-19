@@ -3,4 +3,5 @@ pip
 sublime
 chromeum
 steam
+thefuck
 
