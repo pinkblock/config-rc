@@ -10,6 +10,7 @@ alias li='ls -1'
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+alias supdate='sudo apt-get update'
 
 eval "$(thefuck --alias)"
 
