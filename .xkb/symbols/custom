@@ -1,6 +1,7 @@
-// A complete map that matches the autohotkeys file for win,
+// A complete map that matches the autohotkeys file for win
+
 default partial alphanumeric_keys modifier_keys
-xkb_symbols "seith-r" {
+xkb_symbols "custom" {
     
     key <Caps> { [ LevelThree ] };
     key <AD07> { [ u, U, Prior ] };
